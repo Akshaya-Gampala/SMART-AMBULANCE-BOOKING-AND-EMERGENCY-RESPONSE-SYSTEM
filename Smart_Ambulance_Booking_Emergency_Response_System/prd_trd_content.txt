@@ -1,0 +1,387 @@
+=== PAGE 1 ===
+Smart Ambulance Booking and Emergency Response System | Page 1
+ SMART AMBULANCE BOOKING AND
+ EMERGENCY RESPONSE SYSTEM
+ FULL-STACK WEB DEVELOPMENT
+ SUBMITTED BY
+ JANGILI SRIVARSHA
+GAMPALA AKSHAYA
+SUBMITTED BY
+GAMPALA AKSHAYA
+
+=== PAGE 2 ===
+Smart Ambulance Booking and Emergency Response System | Page 2
+ Task 1: Product Requirements Document (PRD)
+1. What is a PRD?
+A Product Requirements Document (PRD) describes what a product should do, who it is for, and what features it should
+provide. It helps the development team understand the project's goals, user requirements, and expected functionality
+before development begins.
+2. Project Goals and Objectives
+The main goal of the Smart Ambulance Booking and Emergency Response System is to provide a fast, reliable, and
+organized platform for requesting ambulances and coordinating emergency response.
+Objectives:
+  Allow users to book an ambulance quickly.
+  Show available ambulances based on location and status.
+  Share the patient's pickup location.
+  Provide live ambulance tracking and estimated arrival time.
+  Connect patients with ambulance drivers and emergency services.
+  Reduce delays in emergency response.
+  Provide an organized booking and emergency history.
+  Improve communication during emergencies.
+ 3. Features and Requirements
+User Features:
+  User registration and login.
+  Search and request available ambulances.
+  Select ambulance type.
+  Enter pickup and destination details.
+  Share live location.
+  Track ambulance in real time.
+  Receive booking and arrival notifications.
+  View booking and emergency history.
+ 
+=== PAGE 3 ===
+Smart Ambulance Booking and Emergency Response System | Page 3
+ Task 1: Product Requirements Document (PRD)
+Functional Requirements:
+  1. The system should allow users to create an account and log in securely.
+  2. Users should be able to search for nearby available ambulances.
+  3. Users should be able to enter pickup and destination details.
+  4. The system should create and confirm ambulance bookings.
+  5. The system should assign an available ambulance and driver.
+  6. The system should share the patient's location with the assigned driver.
+  7. The system should display the ambulance's live location and estimated arrival time.
+  8. Users should receive booking, dispatch, and arrival notifications.
+  9. Emergency requests should be prioritized for faster response.
+  10. Administrators should manage ambulances, drivers, bookings, and emergency records.
+ Non-Functional Requirements:
+  Simple and user-friendly interface.
+  Fast response time.
+  Reliable service availability.
+  Secure personal and location information.
+  Accurate location tracking.
+  Scalable system.
+  Mobile-friendly interface.
+  Maintainable and well-documented code.
+ 4. How the PRD Helps
+  Clearly defines what the application needs to provide.
+  Identifies user requirements before development.
+  Prevents unnecessary features and scope changes.
+  Provides a clear development roadmap.
+  Improves communication between developers and stakeholders.
+  Helps developers and testers understand expected functionality.
+  Reduces errors and rework.
+ 
+=== PAGE 4 ===
+Smart Ambulance Booking and Emergency Response System | Page 4
+ Task 2: Technical Requirements Document (TRD)
+1. What is a TRD?
+A Technical Requirements Document (TRD) explains how the project will be technically developed. It describes the system
+architecture, technologies, database, development workflow, APIs, and technical requirements needed to implement the
+system.
+2. Technical Architecture
+The application follows a layered full-stack architecture in which the frontend communicates with backend APIs, the
+backend manages business logic and databases, and external services provide maps, location, and notifications.
+USER / PATIENT
+FRONTEND
+REACT / HTML
+BACKEND API
+NODE.JS / EXPRESS
+MAP / NOTIFICATION
+ SERVICES
+DATABASE
+MYSQL / MONGODB
+3. Main Technical Components
+Frontend:
+  Responsive user interface and dashboard.
+  Registration and login pages.
+  Ambulance search and booking pages.
+  Live tracking map.
+  Booking status and notification pages.
+ Backend:
+  Authentication and authorization.
+  Ambulance and driver management.
+  Booking and emergency processing.
+  Location and tracking APIs.
+  Notification services.
+ 
+=== PAGE 5 ===
+Smart Ambulance Booking and Emergency Response System | Page 5
+ Task 2: Technical Requirements Document (TRD)
+Database stores:
+  User profiles and roles.
+  Ambulance and driver information.
+  Ambulance availability and status.
+  Booking and emergency request details.
+  Pickup and destination locations.
+  Live location coordinates.
+  Notifications and booking history.
+  System logs.
+ 4. Technologies and Tools
+ Category
+Technology
+Frontend
+HTML, CSS, JavaScript / React.js
+Backend
+Node.js / Express.js
+Database
+MySQL / MongoDB
+Maps & Location
+Google Maps API / Mapbox
+Real-Time Tracking
+WebSocket / Socket.IO
+Authentication
+JWT / Firebase Authentication
+Notifications
+Firebase Cloud Messaging / Email API
+Version Control
+Git & GitHub
+Development
+VS Code
+Testing
+Browser / Postman
+Deployment
+AWS / Render / Vercel
+5. Development Workflow
+
+=== PAGE 6 ===
+Smart Ambulance Booking and Emergency Response System | Page 6
+Requirement Analysis
+ ↓
+PRD Preparation
+ ↓
+System Design
+ ↓
+UI / UX Design
+ ↓
+Frontend Development
+ ↓
+Backend API Development
+ ↓
+Database Integration
+ ↓
+Maps & Location Integration
+ ↓
+Real-Time Tracking
+ ↓
+Testing
+ ↓
+Deployment
+
+=== PAGE 7 ===
+Smart Ambulance Booking and Emergency Response System | Page 7
+ Task 2: Technical Requirements Document (TRD)
+6. Ambulance Booking Workflow
+USER LOGIN
+ ↓
+ENTER PICKUP & DESTINATION
+ ↓
+FIND NEARBY AMBULANCES
+ ↓
+SELECT / REQUEST AMBULANCE
+ ↓
+BOOKING CONFIRMATION
+ ↓
+DRIVER ACCEPTS REQUEST
+ ↓
+LIVE LOCATION SHARING
+ ↓
+AMBULANCE TRACKING
+ ↓
+ARRIVAL NOTIFICATION
+ ↓
+TRIP COMPLETION
+7. Security Requirements
+  Secure authentication and role-based access.
+  JWT or session-based authorization.
+  Input validation and secure API endpoints.
+  Encrypted sensitive information.
+  Protection of user phone and location data.
+  Secure database access and backups.
+ 8. Testing & Deployment
+  Unit testing for individual modules.
+  Integration testing for frontend and backend.
+  API testing using Postman.
+  Database testing.
+  Location and real-time tracking testing.
+  Performance and security testing.
+  Cloud deployment with Git/GitHub.
+ 9. How the TRD Helps
+  Clearly explains the technical requirements.
+  Defines system architecture and component interaction.
+  Identifies the required technologies and APIs.
+ 
+=== PAGE 8 ===
+Smart Ambulance Booking and Emergency Response System | Page 8
+ Makes development organized and easier to execute.
+  Helps developers understand database and backend requirements.
+  Makes testing and debugging easier.
+  Improves maintainability and scalability.
+  Provides technical documentation for future development.
+ 
+=== PAGE 9 ===
+Smart Ambulance Booking and Emergency Response System | Page 9
+ Task 3: Abstract
+Project Title
+“Smart Ambulance Booking and Emergency Response System”
+Abstract
+The Smart Ambulance Booking and Emergency Response System is a full-stack web application designed to make
+ambulance booking and emergency coordination faster, easier, and more reliable. In emergency situations, delays in
+finding an available ambulance, sharing the correct location, and communicating with drivers can increase response time.
+The proposed system provides a centralized platform where users can register, request nearby ambulances, enter pickup
+and destination details, share their live location, and track the assigned ambulance. Ambulance drivers and administrators
+can manage requests, update availability, and coordinate emergency trips.
+The system integrates web technologies, backend APIs, databases, maps and location services, real-time communication,
+and notification services. It maintains booking and emergency records so that users and administrators can review
+previous requests.
+The expected outcomes are faster ambulance discovery, reduced response and communication delays, improved location
+accuracy, better ambulance utilization, and a more organized emergency response process.
+Overall, the project solves the limitations of manual ambulance searching and communication by providing a centralized,
+real-time, user-friendly digital platform for ambulance booking, tracking, and emergency coordination.
+
+=== PAGE 10 ===
+Smart Ambulance Booking and Emergency Response System | Page 10
+ Task 4: Visual Representations
+PRD Visual — Feature Overview
+USER REGISTRATION & LOGIN
+ ↓
+AMBULANCE SEARCH
+ ↓
+AMBULANCE BOOKING
+ ↓
+LOCATION SHARING
+ ↓
+LIVE AMBULANCE TRACKING
+ ↓
+EMERGENCY ALERTS
+ ↓
+NOTIFICATIONS & HISTORY
+User Journey Diagram
+LOGIN / ACCESS
+ ↓
+ENTER PICKUP & DESTINATION
+ ↓
+SEARCH NEARBY AMBULANCES
+ ↓
+SELECT / REQUEST AMBULANCE
+ ↓
+BOOKING CONFIRMATION
+ ↓
+SHARE LIVE LOCATION
+ ↓
+TRACK AMBULANCE
+ ↓
+RECEIVE ARRIVAL ALERT
+ ↓
+TRIP COMPLETION
+
+=== PAGE 11 ===
+Smart Ambulance Booking and Emergency Response System | Page 11
+ Task 4: Visual Representations
+TRD Visual — System Architecture
+USER / PATIENT
+FRONTEND
+REACT / HTML
+BACKEND API
+NODE.JS / EXPRESS
+MAP / NOTIFICATION
+ SERVICES
+DATABASE
+MYSQL / MONGODB
+Functional Requirements Diagram
+ USER → LOGIN → SEARCH AMBULANCE → BOOK → SHARE LOCATION → DRIVER ACCEPTS → TRACK →
+ ARRIVAL → COMPLETE
+Feature Overview
+ Ambulance Booking
+Search
+Request & confirmation
+Location Services
+Pickup location
+Live GPS
+Real-Time Tracking
+Driver location
+ETA
+Emergency Response
+Priority requests
+Alerts
+Driver Management
+Availability
+Trip updates
+Admin & Reports
+Bookings
+History & analytics
+
+=== PAGE 12 ===
+Smart Ambulance Booking and Emergency Response System | Page 12
+ System Diagrams
+Use Case Diagram
+USER
+/ ADMIN
+Register / Login
+Search Ambulance
+Book Ambulance
+Share Live Location
+Track Ambulance
+View ETA
+Send Emergency Alert
+Manage Ambulances
+View Booking History
+Data Flow Diagram
+PATIENT
+1.0 BOOKING
+2.0 LOCATION
+3.0 DISPATCH
+4.0 TRACKING
+BOOKING DB
+AMBULANCE DB
+
+=== PAGE 13 ===
+Smart Ambulance Booking and Emergency Response System | Page 13
+ Class Diagram
+User
+ userId
+ name
+ phone
+ role
+Ambulance
+ ambulanceId
+ type
+ status
+ location
+Booking
+ bookingId
+ pickup
+ destination
+ status
+Emergency
+ emergencyId
+ type
+ severity
+ time
+Driver
+ driverId
+ name
+ phone
+ availability
+Location
+ locationId
+ latitude
+ longitude
+ timestamp
+Main Classes
+ Class
+Main Attributes / Responsibility
+User
+userId, name, phone, email, role
+Ambulance
+ambulanceId, type, status, location
+Booking
+bookingId, pickup, destination, status
+Emergency
+emergencyId, type, severity, time
+Driver
+driverId, name, phone, availability
+Location
+locationId, latitude, longitude, timestamp
+Conclusion: The Smart Ambulance Booking and Emergency Response System combines full-stack web development,
+real-time location services, database management, APIs, and notifications to provide a faster and more organized
+ambulance booking and emergency response experience.
