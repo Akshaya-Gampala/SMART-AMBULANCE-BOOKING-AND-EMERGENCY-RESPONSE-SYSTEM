@@ -39,6 +39,6 @@ app.get('/api/health', (req, res) => {
 handleSockets(io);
 
 const PORT = process.env.PORT || 5000;
-server.listen(PORT, () => {
-  console.log(`🚑 Smart Ambulance Server running on http://localhost:${PORT}`);
+app.listen(PORT,'0.0.0.0' () => {
+  console.log(`Server running on port ${PORT}`);
 });
